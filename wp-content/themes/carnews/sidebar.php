@@ -11,13 +11,7 @@
         </div>
         <div class="siderbar-widget">
             <h4 class="sidebar-widget-title">Category</h4>
-            <ul>
-                <li><a href="#">Higher Education<span>(15)</span></a></li>
-                <li><a href="#">Healthcare <span>(112)</span></a></li>
-                <li><a href="#">Senior Living <span>(4)</span></a></li>
-                <li><a href="#">Commercial <span>(14)</span></a></li>
-                <li><a href="#">Speciality <span>(90)</span></a></li>
-            </ul>
+                <?php echo outputcategories(); ?>
         </div>
         <div class="siderbar-widget">
             <h4 class="sidebar-widget-title">ARCHIVES</h4>
