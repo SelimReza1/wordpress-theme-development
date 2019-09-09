@@ -8,16 +8,13 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ftl">
                     <div class="row">
-                        <?php query_posts('post_type=post') ?>
-                        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                        <?php  if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="post-box">
                                     <div class="inner-post-box">
                                         <div class="image-box">
-                                            <a href=""><img class="img-responsive transition7s"
-                                                            src="<?php echo get_template_directory_uri(); ?>/images/resource/blog-1.jpg"
-                                                            alt=""></a>
+                                            <?php the_post_thumbnail('single-post-thumbnail'); ?>
                                             <div class="post-caption transition7s">
                                                 <ul>
                                                     <li><i class="fa fa-user"></i> <?php the_author(); ?></li>
@@ -50,24 +47,15 @@
                             </div>
 
                         <?php endwhile; ?>
-                        <?php endif; ?>
-
-                        <div class="col-md-12">
-                            <div class="pagination-area tac">
-                                <nav>
-                                    <ul class="pagination pagination-lg">
-                                        <li class="disabled"><a aria-label="Previous" href="#"><span aria-hidden="true">«</span></a>
-                                        </li>
-                                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#">5</a></li>
-                                        <li><a aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
-                                    </ul>
-                                </nav>
+                            <div class="pagi">
+                                <?php
+                                the_posts_pagination(array(
+                                        'prev_text' => '<<',
+                                        'next_text' => '>>'
+                                ));
+                                ?>
                             </div>
-                        </div>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <?php get_template_part('sidebar'); ?>

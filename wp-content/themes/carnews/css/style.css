@@ -2283,7 +2283,6 @@ width: 0;
 .inner-post-box > .image-box {
     position: relative;
     overflow: hidden;
-    width: 150px;
     float: left;
     margin-right: 15px;
     border: 1px solid #ddd;

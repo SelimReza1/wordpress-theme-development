@@ -10,3 +10,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: news
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 */
+.pagination .nav-links span.page-numbers.current {
+    background: red;
+    color: white;
+}
+
+.pagination .nav-links .page-numbers:hover {
+    background: #eee;
+    color: red;
+}
+.pagination .nav-links .page-numbers {
+    padding: 10px 15px;
+    background: white;
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #ddd;
+}
+h2.screen-reader-text {
+    display: none;
+}
