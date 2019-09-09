@@ -9,6 +9,7 @@ add_theme_support( 'post-thumbnails' );
 
 // Image size for single posts
 add_image_size( 'single-post-thumbnail', 300, 300 );
+add_image_size( 'post-thumbnail', 300, 300 );
 
 //for showing categories
   function outputcategories()
