@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0db3a114-8cfd-4366-9336-9adacb2c0de8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,12 +14,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="53" column="58" lean-forward="false" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+            <state relative-caret-position="1040">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <marker date="1568058785199" expanded="true" signature="538:964" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="710:964" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="765:964" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="830:964" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="894:964" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="1076:1343" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="1129:1343" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="1418:1530" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="1905:2259" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2088:2211" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2332:2615" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2400:2615" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2513:2615" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2516:2599" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2751:2988" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="2872:2937" ph="..." />
+                <marker date="1568058785199" expanded="true" signature="3243:3378" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,9 +75,11 @@
       <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="100">
+              <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding>
+                <marker date="1568058288074" expanded="true" signature="633:662" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +130,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/slider.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/header.php" />
@@ -114,6 +139,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/carnews/search.php" />
       </list>
     </option>
   </component>
@@ -176,14 +203,6 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="carnews" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="carnews" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -226,12 +245,12 @@
       <updated>1567961370538</updated>
       <workItem from="1567961371708" duration="19010000" />
       <workItem from="1568050597456" duration="4250000" />
-      <workItem from="1568055290714" duration="1961000" />
+      <workItem from="1568055290714" duration="3486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25221000" />
+    <option name="totallyTimeSpent" value="26746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -244,7 +263,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23348695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23348695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -295,7 +314,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1568058288074" expanded="true" signature="633:662" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,7 +380,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
           <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1568058288074" expanded="true" signature="633:662" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,6 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="202" column="7" lean-forward="false" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,13 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -494,11 +511,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="53" column="58" lean-forward="false" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+        <state relative-caret-position="1040">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <marker date="1568058288074" expanded="true" signature="633:662" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <marker date="1568058785199" expanded="true" signature="538:964" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="710:964" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="765:964" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="830:964" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="894:964" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="1076:1343" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="1129:1343" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="1418:1530" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="1905:2259" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2088:2211" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2332:2615" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2400:2615" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2513:2615" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2516:2599" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2751:2988" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="2872:2937" ph="..." />
+            <marker date="1568058785199" expanded="true" signature="3243:3378" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
