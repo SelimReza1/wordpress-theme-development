@@ -35,7 +35,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    //comments reply onlick without refresh
+<!--    comments reply onlick without refresh-->
     <?php
     if(is_singular() && comments_open() && get_option('thread_comments')){
         wp_enqueue_script('comment-reply');
