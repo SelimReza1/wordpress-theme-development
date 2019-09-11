@@ -21,6 +21,30 @@
             </ul>
         </div>
         <div class="siderbar-widget">
+            <h4 class="sidebar-widget-title">Technology Category</h4>
+            <?php
+            $techo  = new WP_Query(array(
+                    'post_type' => 'post',
+                    'posts_per_page' => 3,
+                    'orderby'   => 'title',
+                    'order'     => 'DESC',
+                    'category_name' => 'technology'
+            ))
+            ?>
+            <?php if(have_posts()): while ($techo->have_posts()): $techo->the_post(); ?>
+            <div class="widget-news">
+                <a href="#">                                            <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                </a>
+                <div class="news-text">
+                    <?php the_title(); ?>
+                    <a class="" href="<?php the_permalink(); ?>">Read More</a>
+                </div>
+            </div>
+           <?php endwhile;
+           endif;
+           ?>
+        </div>
+        <div class="siderbar-widget">
             <h4 class="sidebar-widget-title">RECENT NEWS</h4>
             <div class="widget-news">
                 <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/blog-1.jpg" alt=""></a>
