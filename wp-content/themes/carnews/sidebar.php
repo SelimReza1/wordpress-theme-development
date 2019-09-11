@@ -13,6 +13,7 @@
             <h4 class="sidebar-widget-title">Category</h4>
                 <?php echo outputcategories(); ?>
         </div>
+        <?php dynamic_sidebar('sidebar-1'); ?>
         <div class="siderbar-widget">
             <h4 class="sidebar-widget-title">ARCHIVES</h4>
             <ul>
