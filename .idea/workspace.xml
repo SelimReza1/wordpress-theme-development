@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0db3a114-8cfd-4366-9336-9adacb2c0de8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/carnews/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/carnews/single.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,17 +18,17 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="160">
+              <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -136,11 +136,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/comments.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/carnews/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/contact-us.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/carnews/single.php" />
       </list>
     </option>
   </component>
@@ -249,12 +249,12 @@
       <workItem from="1568055290714" duration="4760000" />
       <workItem from="1568061212263" duration="1210000" />
       <workItem from="1568115229996" duration="7080000" />
-      <workItem from="1568223349254" duration="6860000" />
+      <workItem from="1568223349254" duration="8108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43170000" />
+    <option name="totallyTimeSpent" value="44418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -658,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -700,14 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -716,6 +700,22 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#!!top" expanded="false" />
             <marker date="1568231391601" expanded="true" signature="617:634" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/carnews/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
